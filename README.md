@@ -1,6 +1,38 @@
 # :honeybee: MetaBee Website (Laravel)
 
-This is a website developed for the brazilian company MetaBee built using Laravel 12 and Tailwind CSS.
+MetaBee is a Laravel-based digital platform that combines a public-facing website with a gated learning environment, including video-based courses and authenticated user access.
+
+## Features
+
+### 🎓 Courses & Learning
+- Course listing with search, category filters, and pagination
+- Modular course structure using relational data (modules → lessons)
+- Dedicated course watch pages with protected access
+- Video-oriented lesson views
+- Dynamic course duration calculation
+- “Next lesson” and “next course” navigation
+- Curriculum management stored in a relational database (migrated from JSON)
+
+### 📊 User Progress
+- Dynamic progress tracking per user
+- User-specific completed lesson tracking
+
+### 👤 User Accounts
+- Auth-protected areas and dashboards
+- Personal information update
+- Account deletion flow
+- Upgrade plan functionality
+
+### ⭐ Reviews & Ratings
+- User-generated course reviews
+- Create, update, and list reviews
+- Dynamic rating calculation (not stored directly on the course model)
+
+### 🛡️ Security & Architecture
+- Route protection for gated content
+- Rate limiting using Laravel’s `RateLimitServiceProvider`
+- Clean controller separation (e.g., dedicated course watch controller)
+- Reusable Blade components and view refactoring
 
 ## Usage
 
