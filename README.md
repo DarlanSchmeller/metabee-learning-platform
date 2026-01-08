@@ -2,6 +2,8 @@
 
 MetaBee is a Laravel-based digital platform that combines a public-facing website with a gated learning environment, including video-based courses and authenticated user access.
 
+<img src="public/images/platform-screenshot.png"></img>
+
 ## Features
 
 ### 🎓 Courses & Learning
